@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.main-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.top-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 20px;
+  border-radius: 20px;
+  flex-grow: 1;
+}
+.name {
+  color: #475569;
+}
+.greeting {
+  color: #334155;
+  font-weight: 500;
+}
+.special {
+  color: #0b69ff;
+}
+.money-details {
+  flex-grow: 1;
+  padding: 10px;
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+.inputs {
+  width: 300px;
+  margin: 10px 0px 10px;
+  height: 30px;
+}
+.add-button {
+  background-color: #0b69ff;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.card {
+  /* box-shadow: 0px 0px 1px 1px #475569; */
+  border: solid 0.5px #334155;
+  /* width: min-content; */
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.history-item {
+  flex-grow: 1;
+  margin-left: 15px;
+  text-align: start;
+}
+.history-headings {
+  display: flex;
+  /* justify-content: space-around; */
+}
+.head {
+  /* margin-right: 30px; */
+  width: 35%;
+  font-weight: bold;
+}
+.transaction-list {
+  display: flex;
+}

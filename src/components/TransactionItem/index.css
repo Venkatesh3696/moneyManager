@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.transaction {
+  display: flex;
+  align-items: baseline;
+  /* justify-content: space-around; */
+  width: 100%;
+  text-align: start;
+}
+.tail {
+  /* margin-right: 30px; */
+  width: 25%;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.delete-img {
+  width: 20px;
+}
